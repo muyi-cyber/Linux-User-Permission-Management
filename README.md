@@ -15,10 +15,12 @@ This project demonstrates fundamental Linux system administration skills, includ
 
 ---
 
-## Prerequisites
-- Linux environment (Ubuntu)
-- Bash shell
-- Sudo privileges for user and permission management
+## Environment & Prerequisites
+* Operating System: Linux (Tested on Ubuntu/Debian)
+* Setup: This project was developed and tested within a Virtual Machine (VM) environment.
+* Dependencies:
+    * sudo privileges for user and permission management.
+    * openssh-server (required for the SSH hardening script).
 
 ---
 
