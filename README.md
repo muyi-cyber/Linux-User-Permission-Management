@@ -1,19 +1,87 @@
-## 📌 Project Overview
-This project demonstrates proficiency in Linux system administration, security hardening, and Bash scripting. It simulates a real-world enterprise environment where a System Administrator must automate user onboarding, enforce Role-Based Access Control (RBAC), and secure the server against unauthorized access.
-## 🛠 Features
-• User & Group Automation: Bash scripts to provision users and organize them into functional groups (e.g., IT, Finance, HR).
-• Permissions Logic: Implementation of "Least Privilege" access using chmod and chown to protect sensitive directories.
-• SSH Hardening: Security configurations to disable root login and enforce key-based authentication.
-• System Auditing: A log analysis tool that parses /var/log/auth.log to identify failed login attempts and potential brute-force attacks.
-## 📁 Repository Structure
-• scripts/: Contains the automation scripts (.sh).
-• configs/: Example hardened configuration files (e.g., sshd_config).
-• docs/: Detailed breakdown of commands and security logic.
-## 🚀 How It Works
-1. Provisioning: Run the setup_users.sh script to create the environment.
-2. Hardening: Run secure_ssh.sh to update the server's security posture.
-3. Auditing: Execute analyze_logs.sh to generate a report of recent security events.
-## 📝 Key Commands Mastered
-• Account Management: useradd, usermod, groupadd, passwd.
-• Permissions: chmod (Symbolic & Numeric), chown, chgrp, umask.
-• Security Tools: ssh-keygen, grep, awk, lastlog.
+# Linux User & Permission Management
+
+## Project Overview
+This project demonstrates fundamental Linux system administration skills, including user and group management, file permissions, SSH hardening, and basic log analysis. The goal is to create reusable scripts that automate common sysadmin tasks while providing clear explanations for learning purposes.
+
+---
+
+## Skills Demonstrated
+- Bash scripting
+- Linux command-line operations
+- User and group management
+- File ownership and permissions
+- SSH security configuration
+- System log analysis
+
+---
+
+## Prerequisites
+- Linux environment (Ubuntu)
+- Bash shell
+- Sudo privileges for user and permission management
+
+---
+
+## Project Structure
+Linux-User-Permission-Management/
+├── scripts/
+│   ├── create_users.sh          # Script to create users & groups
+│   ├── manage_permissions.sh    # Script to set file ownership & permissions
+│   ├── ssh_hardening.sh         # Script to secure SSH configuration
+│   └── log_analysis.sh          # Script to parse system logs
+├── logs/
+│   └── sample_log_output.txt    # Sample output from log_analysis.sh
+└── screenshots/
+├── ssh_config_before.png
+|── ssh_config_after.png
+
+---
+
+## Usage Instructions
+
+### 1. Create Users & Groups
+```bash
+chmod +x scripts/create_users.sh
+./scripts/create_users.sh
+```
+• Adds new users and groups
+ • Assigns users to groups
+ • Deletes users if needed
+
+2. Manage File Permissions
+   ```bash
+   chmod +x scripts/manage_permissions.sh
+    ./scripts/manage_permissions.sh
+   ```
+ • Change file ownership
+ • Set read/write/execute permissions
+ • Example of numeric vs symbolic permissions
+ 
+3. SSH Hardening
+```
+chmod +x scripts/ssh_hardening.sh
+sudo ./scripts/ssh_hardening.sh
+```
+ • Disable root login
+ • Change default SSH port
+ • Enforce key-based authentication
+4. Log Analysis
+```
+chmod +x scripts/log_analysis.sh
+./scripts/log_analysis.sh
+```
+• Parse system logs for login attempts
+ • Highlight suspicious activity
+ • Sample output available in logs/sample_log_output.txt
+
+Explanation of Key Commands
+ • useradd, groupadd, usermod → Manage users and groups
+ • chmod, chown, chgrp → Manage file permissions and ownership
+ • ssh-keygen, sshd_config → Configure SSH security
+ • journalctl, grep, tail → Analyze system logs
+ 
+   
+   
+
+
+└── ssh_config_after.png
