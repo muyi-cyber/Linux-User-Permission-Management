@@ -23,6 +23,7 @@ This project demonstrates fundamental Linux system administration skills, includ
 ---
 
 ## Project Structure
+```text
 Linux-User-Permission-Management/
 ├── scripts/
 │   ├── create_users.sh          # Script to create users & groups
@@ -35,11 +36,11 @@ Linux-User-Permission-Management/
 ├── ssh_config_before.png
 |── ssh_config_after.png
 
----
+```
 
 ## Usage Instructions
 
-### 1. Create Users & Groups
+1. Create Users & Groups
 ```bash
 chmod +x scripts/create_users.sh
 ./scripts/create_users.sh
@@ -49,9 +50,9 @@ chmod +x scripts/create_users.sh
  • Deletes users if needed
 
 2. Manage File Permissions
-   ```bash
-   chmod +x scripts/manage_permissions.sh
-    ./scripts/manage_permissions.sh
+```bash
+chmod +x scripts/manage_permissions.sh
+./scripts/manage_permissions.sh
    ```
  • Change file ownership
  • Set read/write/execute permissions
@@ -65,6 +66,7 @@ sudo ./scripts/ssh_hardening.sh
  • Disable root login
  • Change default SSH port
  • Enforce key-based authentication
+
 4. Log Analysis
 ```
 chmod +x scripts/log_analysis.sh
@@ -75,10 +77,12 @@ chmod +x scripts/log_analysis.sh
  • Sample output available in logs/sample_log_output.txt
 
 Explanation of Key Commands
+```text
  • useradd, groupadd, usermod → Manage users and groups
  • chmod, chown, chgrp → Manage file permissions and ownership
  • ssh-keygen, sshd_config → Configure SSH security
  • journalctl, grep, tail → Analyze system logs
+```
  
    
    
