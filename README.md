@@ -84,4 +84,3 @@ Explanation of Key Commands
    
 
 
-└── ssh_config_after.png
