@@ -1,0 +1,11 @@
+# Ignore all text logs 
+logs/*.txt
+
+# Ignore specific system junk from VirtualBox/OS
+.DS_Store
+*.swp
+
+# Keep the .gitkeep files so the folders stay 
+!logs/.gitkeep
+!samples/.gitkeep
+!screenshots/.gitkeep
