@@ -47,14 +47,14 @@ Linux-User-Permission-Management/
 1. Create Users & Groups
 ```bash
 chmod +x scripts/create_users.sh
-sudo./scripts/create_users.sh
+sudo ./scripts/create_users.sh
 ```
 • Reads samples/user.txt to add new users and groups automatially
 
 2. Manage File Permissions
 ```bash
 chmod +x scripts/manage_permissions.sh
-sudo./scripts/manage_permissions.sh
+sudo ./scripts/manage_permissions.sh
    ```
  • Change file ownership
  • Set read/write/execute permissions
@@ -72,7 +72,7 @@ sudo ./scripts/ssh_hardening.sh
 4. Log Analysis
 ```
 chmod +x scripts/log_analysis.sh
-sudo./scripts/log_analysis.sh
+sudo ./scripts/log_analysis.sh
 ```
 • Parse system logs for login attempts
  • Highlight suspicious activity
