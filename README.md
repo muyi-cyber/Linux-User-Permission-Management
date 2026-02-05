@@ -34,7 +34,7 @@ Linux-User-Permission-Management/
 │   └── log_analysis.sh          # Script to parse system logs
 ├── logs/
 │   └── sample_log_output.txt    # Sample output from log_analysis.sh
-|__Samples/
+|__samples/
       |___users.txt
 └── screenshots/
 ├── ssh_config_before.png
