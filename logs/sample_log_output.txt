@@ -1,0 +1,23 @@
+Failed Login attempts:
+2026-04-12T13:31:59.730807+01:00 muyi-VirtualBox sshd-session[6272]: Failed password for invalid user muyiwa7 from 192.168.1.7 port 32930 ssh2
+2026-04-12T13:32:22.405099+01:00 muyi-VirtualBox sshd-session[6272]: Failed password for invalid user muyiwa7 from 192.168.1.7 port 32930 ssh2
+2026-04-12T13:32:56.287764+01:00 muyi-VirtualBox sshd-session[6272]: Failed password for invalid user muyiwa7 from 192.168.1.7 port 32930 ssh2
+2026-04-12T13:36:22.004577+01:00 muyi-VirtualBox sshd-session[6304]: Failed password for invalid user muyiwa7 from 192.168.1.7 port 37014 ssh2
+2026-04-12T13:41:06.892659+01:00 muyi-VirtualBox sshd-session[6337]: Failed password for invalid user muyiwa7 from 192.168.1.7 port 43920 ssh2
+2026-04-12T16:38:50.123036+01:00 muyi-VirtualBox sshd-session[6752]: Failed password for invalid user muyiwa7 from 192.168.1.7 port 53442 ssh2
+2026-04-12T16:41:45.511401+01:00 muyi-VirtualBox sshd-session[6770]: Failed password for invalid user muyiwa7 from 192.168.1.7 port 49492 ssh2
+2026-04-12T16:42:17.445667+01:00 muyi-VirtualBox sshd-session[6782]: Failed password for invalid user muyiwa7 from 192.168.1.7 port 58582 ssh2
+2026-04-14T05:11:55.025268+01:00 muyi-VirtualBox sudo: muyi : TTY=/dev/pts/2 ; PWD=/home/muyi ; USER=root ; COMMAND=/usr/bin/journalctl grep Failed password /var/log/auth.log
+2026-04-14T08:18:05.462350+01:00 muyi-VirtualBox sshd-session[7601]: Failed password for invalid user muyi from 127.0.0.1 port 56388 ssh2
+2026-04-14T08:18:10.415315+01:00 muyi-VirtualBox sshd-session[7601]: Failed password for invalid user muyi from 127.0.0.1 port 56388 ssh2
+2026-04-14T08:18:16.790196+01:00 muyi-VirtualBox sshd-session[7601]: Failed password for invalid user muyi from 127.0.0.1 port 56388 ssh2
+2026-04-14T08:30:33.638738+01:00 muyi-VirtualBox sshd-session[7734]: Failed password for invalid user muyi from 127.0.0.1 port 53294 ssh2
+2026-04-14T08:30:48.177649+01:00 muyi-VirtualBox sshd-session[7734]: Failed password for invalid user muyi from 127.0.0.1 port 53294 ssh2
+2026-04-14T08:36:50.653802+01:00 muyi-VirtualBox sshd-session[7805]: Failed password for invalid user muyi from 127.0.0.1 port 40132 ssh2
+2026-04-14T08:36:55.329496+01:00 muyi-VirtualBox sshd-session[7805]: Failed password for invalid user muyi from 127.0.0.1 port 40132 ssh2
+2026-04-14T08:36:59.857198+01:00 muyi-VirtualBox sshd-session[7805]: Failed password for invalid user muyi from 127.0.0.1 port 40132 ssh2
+2026-04-14T08:37:11.246979+01:00 muyi-VirtualBox sshd-session[7817]: Failed password for invalid user muyi from 127.0.0.1 port 38346 ssh2
+2026-04-14T08:37:18.611893+01:00 muyi-VirtualBox sshd-session[7817]: Failed password for invalid user muyi from 127.0.0.1 port 38346 ssh2
+
+Successful Logins:
+2026-04-14T08:38:57.072449+01:00 muyi-VirtualBox sudo: muyi : TTY=/dev/pts/2 ; PWD=/home/muyi ; USER=root ; COMMAND=/usr/bin/logger Accepted password for muyi from 127.0.0.1 port 1234 ssh2
