@@ -82,8 +82,8 @@ Explanation of Key Commands
 ```text
  • useradd, groupadd, usermod → Manage users and groups
  • chmod, chown, chgrp → Manage file permissions and ownership
- • ssh-keygen, sshd_config → Configure SSH security
- • journalctl, grep, tail → Analyze system logs
+ • sed, sshd_config, sysemctl → Configure SSH security
+ • grep, tail → Analyze system logs
 ```
  
    
